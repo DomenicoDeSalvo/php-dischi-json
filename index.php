@@ -17,7 +17,7 @@
                 <div class="container">
                     <div class="row row-cols-3">
                         <div v-for="vinyl in vinyls" class="col">
-                            <div class="ms_card border-0 card">
+                            <div class="ms_card mb-5 border-0 card">
                                 <img src="" class="card-img-top p-2" alt="...">
                                 <div class="text-center card-body">
                                     <h5 class="name card-title">{{vinyl.title}}</h5>
