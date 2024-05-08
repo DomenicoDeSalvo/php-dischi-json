@@ -54,6 +54,10 @@
         <title>PHP Dischi JSON</title>
     </head>
     <body>
-        
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <div id="app">
+
+        </div>
+        <script src="./js/app.js"></script> 
     </body>
 </html>
