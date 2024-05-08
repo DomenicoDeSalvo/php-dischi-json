@@ -13,12 +13,17 @@
     <body>
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
         <div id="app" class="d-flex flex-column vh-100">
-            <main class="flex-grow-1 py-5">
+            <!-- HEADER -->
+            <?php
+            include __DIR__ . '/partials/templates/header.php';
+            ?>
+            <!-- MAIN -->
+            <main class="flex-grow-1 py-3">
                 <div class="container">
                     <div class="row row-cols-3">
                         <div v-for="vinyl in vinyls" class="col">
-                            <div class="ms_card mb-5 border-0 card">
-                                <img src="" class="card-img-top p-2" alt="...">
+                            <div class="ms_card m-5 border-0 card">
+                                <img :src="" class="card-img-top px-5 py-3" alt="...">
                                 <div class="text-center card-body">
                                     <h5 class="name card-title">{{vinyl.title}}</h5>
                                     <p class="author card-text">{{vinyl.author}}</p>
@@ -35,8 +40,12 @@
 </html>
 
 <style>
-    .ms_card{
+
+    main{
         background-color: #1D2D3C;
+    }
+    .ms_card, header{
+        background-color: #112030;
         color: white;
     }
 
@@ -54,6 +63,5 @@
         font-size: 16px;
         font-weight: 900:
     }
-
 
 </style>
