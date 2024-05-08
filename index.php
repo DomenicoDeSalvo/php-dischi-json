@@ -12,8 +12,16 @@
     </head>
     <body>
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-        <div id="app">
-
+        <div id="app d-flex flex-column vh-100">
+            <main class="flex-grow-1 py-5">
+                <div class="container">
+                    <div class="row row-cols-3">
+                        <div class="col">
+                            
+                        </div>
+                    </div>
+                </div>
+            </main>
         </div>
         <script src="./js/app.js"></script> 
     </body>
