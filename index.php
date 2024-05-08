@@ -12,12 +12,12 @@
     </head>
     <body>
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-        <div id="app d-flex flex-column vh-100">
+        <div id="app" class="d-flex flex-column vh-100">
             <main class="flex-grow-1 py-5">
                 <div class="container">
                     <div class="row row-cols-3">
-                        <div class="col">
-                            
+                        <div v-for="vinyl in vinyls">
+                            {{vinyl.title}}
                         </div>
                     </div>
                 </div>
