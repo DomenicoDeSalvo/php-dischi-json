@@ -84,7 +84,7 @@
 
     /* MODAL */
     .modal_background{
-        background-color: #112030;
+        background-color: #11203080;
     }
 
     .modal_content{
