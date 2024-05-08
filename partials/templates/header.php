@@ -1,11 +1,5 @@
-<header class="py-1">
+<header class="py-2">
     <div class="container">
-        <h1>SPOTIFY</h1>
+        <img class="logo" src="./img/logo.png" alt="spotify">
     </div>
 </header>
-
-<style>
-    h1{
-        color:white;
-    }
-</style>
