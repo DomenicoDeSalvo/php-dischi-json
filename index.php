@@ -22,7 +22,7 @@
                 <div class="container">
                     <div class="row row-cols-3">
                         <!-- V-FOR -->
-                        <div v-for="vinyl in vinyls" class="col">
+                        <div v-for="(vinyl, i) in vinyls" class="col">
                             <!-- CARD -->
                             <div class="ms_card  my-4 mx-5 border-0 card" data-bs-toggle="modal" data-bs-target="#vinylModal">
                                 <img :src="vinyl.poster" class="card-img-top px-5 py-3" alt="...">
