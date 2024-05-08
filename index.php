@@ -21,7 +21,9 @@
             <main class="flex-grow-1 py-2">
                 <div class="container">
                     <div class="row row-cols-3">
+                        <!-- V-FOR -->
                         <div v-for="vinyl in vinyls" class="col">
+                            <!-- CARD -->
                             <div class="ms_card my-4 mx-5 border-0 card">
                                 <img :src="vinyl.poster" class="card-img-top px-5 py-3" alt="...">
                                 <div class="text-center card-body">
